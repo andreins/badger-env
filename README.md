@@ -29,4 +29,4 @@ Server will now be running at http://localhost:3000, displaying a basic React co
 - Add some front-end testing framework
 - ..?
 
-*** This README is a work in progress ***
+**Please note: this README is a work in progress.**
