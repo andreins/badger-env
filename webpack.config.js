@@ -1,8 +1,8 @@
 module.exports = {
-  context: path.join(__dirname, 'app/assets/javascripts'),
+  context: './app/assets/javascripts',
   entry: "./entry",
   output: {
-    path: path.join(__dirname, 'public'),
+    path: './public',
     filename: "bundle.js"
   },
   resolve: {
@@ -14,6 +14,10 @@ module.exports = {
         test: /\.jsx?$/,
         exclude: /(node_modules)/,
         loader: 'babel'
+      },
+      {
+        test: require.resolve("React"),
+        loader: "expose?React"
       }
     ]
   }
