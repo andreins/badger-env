@@ -24,5 +24,10 @@ module BadgerEnv
 
     # Make sure the asset pipeline is disabled
     config.assets.enabled = false
+
+    # Stop generators from creating assets (js/css)
+    config.generators do |g|
+        g.assets false
+    end
   end
 end
