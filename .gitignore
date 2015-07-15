@@ -12,6 +12,9 @@
 !/log/.keep
 /tmp
 
+# Ignore compiled assets
+/public/assets
+
 ### Node ###
 
 # Logs
