@@ -3,5 +3,5 @@ import DemoComponent from './components/demo-component';
  
 React.render(
   <DemoComponent />,
-  document.body
+  document.getElementById('container')
 );
