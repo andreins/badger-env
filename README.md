@@ -11,7 +11,7 @@ Rails
 bundle install
 bundle exec rake db:migrate
 ```
-Node (including React, Browserify, ES6 through Babel, ...)
+Node (including React, ES6 through Babel, Webpack ...)
 ```
 npm install
 ```
@@ -24,6 +24,7 @@ Server will now be running at http://localhost:3000, displaying a basic React co
 
 ### Todo
 
+- Change rails db to PostgreSQL instead of SQLite
 - Add SASS/SCSS compilation to webpack
 - Add rspec for rails tests
 - Add some front-end testing framework
